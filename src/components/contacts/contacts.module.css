@@ -1,0 +1,34 @@
+.title {
+    color: rgb(164, 107, 218);
+    text-align: center;
+
+}
+
+.text {
+    text-align: center;
+    color: rgb(20, 128, 92);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.git {
+    color: rgb(164, 107, 218);
+    font-size: 50px;
+}
+
+.link {
+    color: rgb(164, 107, 218);
+    font-size: 50px;
+}
+
+.insta {
+    color: rgb(164, 107, 218);
+    font-size: 50px;
+}

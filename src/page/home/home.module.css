@@ -1,0 +1,36 @@
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    color: rgb(164, 107, 218);
+    text-align: center;
+
+}
+
+.container2 {
+   display: flex;
+   flex-direction: row;
+}
+
+.text {
+    color: rgb(20, 128, 92);
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    text-align: center;
+    margin: 70px;
+}
+
+.clock {
+    background-color: rgb(164, 107, 218);
+    border-radius: 75px;
+    margin: 30px;
+    
+}
+
+.photo {
+    border-radius: 60px;
+    height: 300px;
+    box-shadow: 3px 3px rgb(206, 167, 243);
+}

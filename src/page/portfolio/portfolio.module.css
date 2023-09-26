@@ -1,0 +1,20 @@
+.title {
+    color: rgb(164, 107, 218);
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.photo {
+   height: 200px;
+   border-radius: 30px;
+   box-shadow: 3px 3px rgb(164, 107, 218);
+}
+
