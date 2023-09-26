@@ -8,13 +8,13 @@ export default function Contacts() {
         <>
         
         <div className={Style.contacts}>
-            <a className={Style.git} href='https://github.com/LiviaL22' rel="noopener noreferrer" target='_blank'>
+            <a className={Style.link} href='https://github.com/LiviaL22' rel="noopener noreferrer" target='_blank'>
                 <BsGithub/>
             </a>
             <a className={Style.link} href='https://www.linkedin.com/in/livia-luciani-b3a2981b0/' rel="noopener noreferrer" target='_blank'>
                 <BsLinkedin/>
             </a>
-            <a className={Style.insta} href='https://www.instagram.com/livia_luciani22/'  rel="noopener noreferrer" target='_blank'>
+            <a className={Style.link} href='https://www.instagram.com/livia_luciani22/'  rel="noopener noreferrer" target='_blank'>
                <BsInstagram/>
             </a>
         </div>

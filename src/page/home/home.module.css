@@ -6,13 +6,8 @@
 .title {
     color: rgb(164, 107, 218);
     text-align: center;
-
 }
 
-.container2 {
-   display: flex;
-   flex-direction: row;
-}
 
 .text {
     color: rgb(20, 128, 92);
@@ -23,14 +18,28 @@
 }
 
 .clock {
-    background-color: rgb(164, 107, 218);
     border-radius: 75px;
     margin: 30px;
-    
 }
 
 .photo {
     border-radius: 60px;
     height: 300px;
     box-shadow: 3px 3px rgb(206, 167, 243);
+}
+
+@media (max-width:600px) {
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:600px) {
+    .photo {
+        height: 200px;
+        border-radius: 30px;
+        box-shadow: 2px 2px rgb(206, 167, 243);
+    }
 }
