@@ -18,3 +18,10 @@
    box-shadow: 3px 3px rgb(164, 107, 218);
 }
 
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }    
+}
