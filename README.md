@@ -8,7 +8,7 @@ ho usato:
 •	Vite 
 •	Netlify
 
-Link:
+Link: https://my-portfolio-ll22.netlify.app/
 
 
 ENGLISH
@@ -24,4 +24,4 @@ I used:
 •	Vite 
 •	Netlify
 
-Link:
+Link: https://my-portfolio-ll22.netlify.app/
