@@ -3,12 +3,15 @@ import Counter from './../../assets/count.jpg';
 import Book from './../../assets/book.jpg';
 import Med from './../../assets/medi.jpg';
 import Globo from './../../assets/glo.jpg';
+import Skills from '../../components/skills/skills';
  
 
 export default function portfolio() {
     return(
         <>
         <h1 className={Style.title}>Portfolio</h1>
+
+         <Skills/>
 
         <div className={Style.container}>
 

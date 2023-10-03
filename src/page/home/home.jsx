@@ -30,12 +30,13 @@ export default function Home() {
             <Clock className={Style.clock} value={value} />
             <p className={Style.text}>
             Ho amato e lavorato nel campo della ristorazione per più di un decennio, <br/> 
-            diverse esperienze mi hanno insegnato l&apos;umiltà, la puntualità e la determinazione, <br/> 
+            diverse esperienze mi hanno insegnato la precisione, la puntualità e la determinazione, <br/> 
             oltre alla conoscenza dei vini e dell&apos;alta ristorazione ma ho sempre avuto <br/> 
             una grande passione per l’ informatica tramandata dalla mia famiglia. <br/>
             A 30 anni ho capito che avevo bisogno di assecondare questo mio bisogno. <br/>
             L&apos;idea di poter creare qualcosa che prima non c&apos;era mi rende felice. <br/> 
             Così ho deciso di studiare per diventare sviluppatrice front-end. <br/>
+            Vorrei poter unire la mia passione per la natura e la forte propensione ai diritti umani nel digitale.<br/>
             Nella pagina portfolio troverete i miei progetti.
             </p>
             <img className={Style.photo} src={Image} alt="photo-LL" />
