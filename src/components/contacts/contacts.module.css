@@ -1,16 +1,3 @@
-.title {
-    color: rgb(164, 107, 218);
-    text-align: center;
-
-}
-
-.text {
-    text-align: center;
-    color: rgb(20, 128, 92);
-    font-weight: bolder;
-    font-size: large;
-}
-
 .contacts {
     display: flex;
     justify-content: space-around;
