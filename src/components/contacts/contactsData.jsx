@@ -16,7 +16,7 @@ export const contactsData = [
     },
     {
         id:3,
-        link: '',
+        link: 'mailto:livialuciani93@gmail.com',
         icon: <MdEmail/>
 
     },
