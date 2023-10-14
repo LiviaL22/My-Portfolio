@@ -1,8 +1,6 @@
 import './App.css';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Home from './page/home/home';
-import Portfolio from './page/portfolio/portfolio';
-import Header from './components/header/header';
 import Footer from './components/footer/footer';
 
 function App() {
@@ -12,10 +10,8 @@ function App() {
     <>
      <BrowserRouter>
      <div>
-     <Header/>
      <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/portfolio' element={<Portfolio/>}/>
      </Routes>
      <Footer/>
      </div>

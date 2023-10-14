@@ -1,7 +1,6 @@
-import { BsGithub } from 'react-icons/bs';
-import { BsLinkedin } from 'react-icons/bs';
-import { BsInstagram } from 'react-icons/bs';
-
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { MdEmail } from 'react-icons/md';
+ 
 export const contactsData = [
     {
         id:1,
@@ -17,8 +16,8 @@ export const contactsData = [
     },
     {
         id:3,
-        link: 'https://www.instagram.com/livia_luciani22/',
-        icon: <BsInstagram/>
+        link: '',
+        icon: <MdEmail/>
 
     },
 ]

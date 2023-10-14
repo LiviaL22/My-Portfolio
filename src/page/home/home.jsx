@@ -5,6 +5,7 @@ import { Clock } from 'react-clock';
 import { useEffect, useState } from 'react';
 import 'react-clock/dist/Clock.css';
 import Contacts from '../../components/contacts/contacts';
+import Portfolio from '../portfolio/portfolio';
 
 export default function Home() {
     const [value, setValue] = useState(new Date());
@@ -31,18 +32,19 @@ export default function Home() {
             <p className={Style.text}>
             Ho amato e lavorato nel campo della ristorazione per più di un decennio, <br/> 
             diverse esperienze mi hanno insegnato la precisione, la puntualità e la determinazione, <br/> 
-            oltre alla conoscenza dei vini e dell&apos;alta ristorazione ma ho sempre avuto <br/> 
+            oltre alla conoscenza dei vini e dell&apos;alta ristorazione. Con il tempo ho coltivato<br/> 
             una grande passione per l’ informatica tramandata dalla mia famiglia. <br/>
             A 30 anni ho capito che avevo bisogno di assecondare questo mio bisogno. <br/>
             L&apos;idea di poter creare qualcosa che prima non c&apos;era mi rende felice. <br/> 
             Così ho deciso di studiare per diventare sviluppatrice front-end. <br/>
-            Vorrei poter unire la mia passione per la natura e la forte propensione ai diritti umani nel digitale.<br/>
+            Vorrei poter unire la mie passioni nel digitale.<br/>
             Nella pagina portfolio troverete i miei progetti.
             </p>
-            <img className={Style.photo} src={Image} alt="photo-LL" />
+              <img className={Style.photo} src={Image} alt="photo-LL" />
         </div>
 
         <Contacts/>
+        <Portfolio/>
     
         </>
     )
