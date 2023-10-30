@@ -18,8 +18,10 @@
 }
 
 .clock {
-    border-radius: 75px;
-    margin: 30px;
+    border-width: 5px !important;
+	border-color: #980260 !important;
+	background-color: rgb(164, 107, 218);
+
 }
 
 .photo {

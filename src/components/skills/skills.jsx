@@ -5,7 +5,8 @@ import { IoLogoJavascript } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
 import { SiNetlify } from 'react-icons/si';
 import { DiGithubFull } from 'react-icons/di';
-
+import { SiWebpack } from 'react-icons/si';
+import { FaNode } from 'react-icons/fa';
 
 export default function Skills(){
     return(
@@ -18,6 +19,8 @@ export default function Skills(){
             <FaReact/>
             <SiNetlify/>
             <DiGithubFull/>
+            <SiWebpack/>
+            <FaNode/>
             
         </div>
         </>
