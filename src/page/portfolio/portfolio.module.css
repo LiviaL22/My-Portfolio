@@ -13,6 +13,7 @@
   border-radius: 30px;
   box-shadow: 3px 3px rgb(164, 107, 218);
   margin-left: 10px;
+  margin-top: 5px;
 }
 
 @media (max-width: 600px) {
