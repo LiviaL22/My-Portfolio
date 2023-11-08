@@ -7,6 +7,7 @@ import { SiNetlify } from 'react-icons/si';
 import { DiGithubFull } from 'react-icons/di';
 import { SiWebpack } from 'react-icons/si';
 import { FaNode } from 'react-icons/fa';
+import { TbBrandReactNative } from 'react-icons/tb';
 
 export default function Skills(){
     return(
@@ -16,7 +17,8 @@ export default function Skills(){
             <AiFillHtml5/>
             <FaCss3Alt/>
             <IoLogoJavascript/>
-            <FaReact/>
+            <FaReact />
+            <TbBrandReactNative/>
             <SiNetlify/>
             <DiGithubFull/>
             <SiWebpack/>
