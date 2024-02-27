@@ -1,12 +1,15 @@
 .title {
-  
-  text-align: center;
+   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .containerSkills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  
   
 }
 
@@ -14,8 +17,8 @@
   height: 150px;
   border-radius: 30px;
   box-shadow: 2px 2px 2px 2px #E66A72;
-  margin-left: 10px;
-  margin-top: 5px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
@@ -38,8 +41,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
   /*background-color:rgb(107, 47, 163);*/
   box-shadow: 2px 2px 2px 2px #E66A72;
   border-radius: 20px;
+  margin-left: 450px;
+  margin-right: 450px;
 }

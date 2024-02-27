@@ -1,6 +1,9 @@
 .container1 {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 20px ;
+    margin-right: 20px; ;
    
 }
 
@@ -9,23 +12,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
     box-shadow:  2px 2px 2px 2px #E66A72;
     border-radius: 20px;
 }
 
 .title {
-    
     text-align: center;
-    
     font-weight: bolder;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
 .text {
-  
-    font-weight: bolder;
     text-align: center;
     margin: 70px;
 }
@@ -34,9 +36,7 @@
     border-width: 2px !important;
     box-shadow: 2px 2px 2px 2px #E66A72 !important;
 	background-color: #783C8E;
-   
-    
-
+    border-radius: 2px solid #783C8E;
 }
 
 .photo {
@@ -65,7 +65,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
     box-shadow:  2px 2px 2px 2px #E66A72;
     border-radius: 20px;
+    margin-top: 20px;
 }
