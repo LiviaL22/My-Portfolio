@@ -49,7 +49,7 @@
 @media (max-width: 600px) {
  .containerName{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center ;
  }
 }
