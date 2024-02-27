@@ -32,8 +32,8 @@ export default function Home() {
             la determinazione, oltre alla conoscenza dei vini e dell&apos;alta
             ristorazione.
             <br />
-            A 30 anni ho capito che volevo assecondare questo mio bisogno che è
-            la tecnologia. <br />
+            Poi ho capito che volevo assecondare questo mio bisogno che è la
+            tecnologia. <br />
             L&apos;idea di poter creare qualcosa che prima non c&apos;era mi
             rende felice. <br />
             Così ho deciso di intraprendere gli studi nello sviluppo. <br />
