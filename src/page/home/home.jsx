@@ -22,7 +22,6 @@ export default function Home() {
           mode="dark"
         />
         <div className={Style.ContainerText}>
-          {" "}
           <p className={Style.text}>
             Mi presento sono Livia, e sono junior front-end developer. <br />{" "}
             Negli ultimi anni ho coltivato una grande passione per l’

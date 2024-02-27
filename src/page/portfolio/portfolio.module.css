@@ -37,6 +37,21 @@
   }
 }
 
+@media (max-width: 600px) {
+  .containerSkills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+ .containerName{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+ }
+}
 .containerName {
   display: flex;
   justify-content: center;

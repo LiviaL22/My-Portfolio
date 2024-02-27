@@ -55,11 +55,35 @@
 
 @media (max-width:600px) {
     .photo {
+        margin-top:10px;
         height: 200px;
         border-radius: 30px;
         box-shadow: 2px 2px 2px 2px#E66A72;
     }
 }
+
+@media (max-width:600px) {
+    .ContainerText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        box-shadow:  2px 2px 2px 2px #E66A72;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .containerName {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        box-shadow:  2px 2px 2px 2px #E66A72;
+        border-radius: 20px;
+        margin-top: 20px;
+    
+}}
 
 .containerName {
     display: flex;
