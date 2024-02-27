@@ -1,5 +1,6 @@
 .title {
    text-align: center;
+   font-weight: bolder;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -50,6 +51,15 @@
   display: flex;
   justify-content: center;
   align-items: center ;
+ }
+}
+
+@media (max-width: 600px) {
+  .title {
+    text-align: center;
+    font-weight: bolder;
+   margin-left: 10px;
+   margin-right: 10px;
  }
 }
 .containerName {
