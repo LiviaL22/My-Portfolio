@@ -1,17 +1,19 @@
 .title {
-  color: rgb(164, 107, 218);
+  
   text-align: center;
 }
 
-.container {
+.containerSkills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  
 }
 
 .photo {
   height: 150px;
   border-radius: 30px;
-  box-shadow: 3px 3px rgb(164, 107, 218);
+  box-shadow: 2px 2px 2px 2px #E66A72;
   margin-left: 10px;
   margin-top: 5px;
 }
@@ -28,6 +30,16 @@
   .photo {
     height: 120px;
     border-radius: 10px;
-    box-shadow: 2px 2px rgb(164, 107, 218);
+    box-shadow:  2px 2px 2px 2px #E66A72;
   }
+}
+
+.containerName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  /*background-color:rgb(107, 47, 163);*/
+  box-shadow: 2px 2px 2px 2px #E66A72;
+  border-radius: 20px;
 }

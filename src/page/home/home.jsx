@@ -9,17 +9,18 @@ export default function Home() {
    
     return(
         <>
-       
+       <div className={Style.containerName}>
         <h1 className={Style.title}>
             <GiGrapes/>
             Livia Luciani
             <GiGrapes/>
         </h1>
+        </div>
 
         <div className={Style.container1}>
-            <Clock className={Style.clock} live={true} hourMarkFormat="number" mode="dark"  />
-            <p className={Style.text}>
-            Mi presento sono Livia, e sono sviluppatrice web. <br /> Negli ultimi anni ho coltivato una grande passione per l’ informatica tramandata dalla mia famiglia. <br />
+            <Clock className={Style.clock} live={true} hourMarkFormat="number" mode="dark"/>
+           <div className={Style.ContainerText}> <p className={Style.text}>
+            Mi presento sono Livia, e sono junior front-end developer. <br /> Negli ultimi anni ho coltivato una grande passione per l’ informatica tramandata dalla mia famiglia. <br />
             Per lungo tempo ho lavorato nel campo della ristorazione, <br /> 
             diverse esperienze mi hanno insegnato la precisione, la puntualità e la determinazione, 
             oltre alla conoscenza dei vini e dell&apos;alta ristorazione.<br/> 
@@ -30,6 +31,7 @@ export default function Home() {
             Di seguito i miei progetti.
       
             </p>
+            </div>
               <img className={Style.photo} src={Image} alt="photo-LL" />
         </div>
 

@@ -7,15 +7,17 @@ import { BsPersonWorkspace } from 'react-icons/bs';
 export default function Portfolio() {
     return(
         <>
+        <div className={Style.containerName}>
         <h1 className={Style.title}>
             <BsPersonWorkspace/>
             Portfolio
             <BsPersonWorkspace/>
             </h1>
+            </div>
 
         <Skills/>
 
-        <div className={Style.container}>
+        <div className={Style.containerSkills}>
 
             {portfolioData.map(({id,image,description,link})=>(
                <div key={id}>
