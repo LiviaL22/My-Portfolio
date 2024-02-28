@@ -65,13 +65,6 @@
     }
 }
 
-@media (max-width:600px) {
-    .photo {
-        height: 200px;
-        border-radius: 30px;
-        box-shadow: 2px 2px 2px 2px#E66A72;
-    }
-}
 
 @media (max-width:600px) {
     .containerPhoto {
