@@ -1,11 +1,13 @@
 .skills {
-    color: #fac7f6;
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 50px;
-    
+}
+
+.icon{
+    color: #fac7f6;
+    font-size: 30px;  
 }
 
 @media(max-width: 600px) {

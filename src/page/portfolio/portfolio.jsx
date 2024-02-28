@@ -7,9 +7,9 @@ export default function Portfolio() {
   return (
     <>
       <div className={Style.containerName}>
-        <BsPersonWorkspace size={30} />
+        <BsPersonWorkspace size={20} />
         <h1 className={Style.title}>Portfolio</h1>
-        <BsPersonWorkspace size={30} />
+        <BsPersonWorkspace size={20} />
       </div>
 
       <Skills />

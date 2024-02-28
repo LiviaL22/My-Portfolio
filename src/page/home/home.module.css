@@ -8,15 +8,20 @@
 }
 
 .ContainerText{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
-    box-shadow:  2px 2px 2px 2px #E66A72;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow:  2px 2px 2px 2px #fac7f6;
     border-radius: 20px;
+}
+
+.containerContacts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+  
+
 }
 
 .title {
@@ -29,20 +34,14 @@
 
 .text {
     text-align: center;
-    margin: 70px;
+    margin: 20px;
 }
 
-.clock {
-    border-width: 2px !important;
-    box-shadow: 2px 2px 2px 2px #E66A72 !important;
-	background-color: #783C8E;
-    border-radius: 2px solid #783C8E;
-}
 
 .photo {
     border-radius: 100px;
     height: 300px;
-    box-shadow:  2px 2px 2px 2px #E66A72;
+    box-shadow:  2px 2px 2px 2px #fac7f6;
 }
 
 @media (max-width:600px) {
@@ -107,7 +106,7 @@
     align-items: center;
     margin-left: 450px;
     margin-right: 450px;
-    box-shadow:  2px 2px 2px 2px #E66A72;
+    box-shadow:  2px 2px 2px 2px #fac7f6;
     border-radius: 20px;
     margin-top: 20px;
 }

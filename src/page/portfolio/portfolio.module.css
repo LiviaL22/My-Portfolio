@@ -17,7 +17,7 @@
 .photo {
   height: 150px;
   border-radius: 30px;
-  box-shadow: 2px 2px 2px 2px #E66A72;
+  box-shadow: 2px 2px 2px 2px #fac7f6;
   margin-left: 30px;
   margin-top: 20px;
 }
@@ -34,7 +34,7 @@
   .photo {
     height: 120px;
     border-radius: 10px;
-    box-shadow:  2px 2px 2px 2px #E66A72;
+    box-shadow:  2px 2px 2px 2px #fac7f6;
   }
 }
 
@@ -68,9 +68,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background-color:rgb(107, 47, 163);*/
-  box-shadow: 2px 2px 2px 2px #E66A72;
+  box-shadow: 2px 2px 2px 2px#fac7f6;
   border-radius: 20px;
   margin-left: 450px;
   margin-right: 450px;
+  margin-top: 50px;
 }

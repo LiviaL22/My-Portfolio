@@ -1,7 +1,6 @@
 import Style from "./home.module.css";
 import Image from "./../../assets/ll.jpg";
 import { GiGrapes } from "react-icons/gi";
-import Clock from "react-simple-clock";
 import Contacts from "../../components/contacts/contacts";
 import Portfolio from "../portfolio/portfolio";
 
@@ -9,17 +8,11 @@ export default function Home() {
   return (
     <div className={Style.page}>
       <div className={Style.containerName}>
-        <GiGrapes size={30} />
+        <GiGrapes size={20} />
         <h1 className={Style.title}>Livia Luciani</h1>
-        <GiGrapes size={30} />
+        <GiGrapes size={20} />
       </div>
       <div className={Style.container1}>
-        <Clock
-          className={Style.clock}
-          live={true}
-          hourMarkFormat="number"
-          mode="dark"
-        />
         <div className={Style.ContainerText}>
           <p className={Style.text}>
             Mi presento sono Livia, e sono junior front-end developer. <br />{" "}
@@ -39,13 +32,15 @@ export default function Home() {
             <br />
             Di seguito i miei progetti.
           </p>
+          <div className={Style.containerContacts}>
+            <Contacts />
+          </div>
         </div>
         <div className={Style.containerPhoto}>
           <img className={Style.photo} src={Image} alt="photo-LL" />
         </div>
       </div>
 
-      <Contacts />
       <Portfolio />
     </div>
   );
