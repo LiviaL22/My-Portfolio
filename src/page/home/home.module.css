@@ -73,6 +73,15 @@
     }
 }
 
+@media (max-width:600px) {
+    .containerPhoto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+}
+
 
 @media (max-width:600px) {
     .containerName {

@@ -40,7 +40,9 @@ export default function Home() {
             Di seguito i miei progetti.
           </p>
         </div>
-        <img className={Style.photo} src={Image} alt="photo-LL" />
+        <div className={Style.containerPhoto}>
+          <img className={Style.photo} src={Image} alt="photo-LL" />
+        </div>
       </div>
 
       <Contacts />
