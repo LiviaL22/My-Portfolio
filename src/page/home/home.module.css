@@ -64,14 +64,7 @@
 
 @media (max-width:600px) {
     .ContainerText {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 20px;
-        box-shadow:  2px 2px 2px 2px #E66A72;
-        border-radius: 20px;
-        margin-left: 100px ;
-        margin-right: 100px ;
+      padding: 50px;
     }
     .title {
         text-align: center;

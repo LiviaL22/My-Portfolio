@@ -13,7 +13,6 @@ export default function Home() {
         <h1 className={Style.title}>Livia Luciani</h1>
         <GiGrapes size={30} />
       </div>
-
       <div className={Style.container1}>
         <Clock
           className={Style.clock}
