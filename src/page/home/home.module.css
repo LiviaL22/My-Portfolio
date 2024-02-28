@@ -66,7 +66,6 @@
 
 @media (max-width:600px) {
     .photo {
-        margin-top:20px;
         height: 200px;
         border-radius: 30px;
         box-shadow: 2px 2px 2px 2px#E66A72;
@@ -80,15 +79,13 @@
         justify-content: center;
         align-items: center;
         margin: 20px;
-        padding: 100px;
     
 }}
 
 @media (max-width:600px) {
    .title{text-align: center;
     font-weight: bolder;
-    margin-left: 10px;
-    margin-right: 10px;} 
+  } 
 }
 
 .containerName {
