@@ -83,12 +83,8 @@
 @media (max-width:600px) {
     .containerName {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        margin-left: 450px;
-        margin-right: 450px;
-        box-shadow:  2px 2px 2px 2px #E66A72;
-        border-radius: 20px;
         margin-top: 20px;
     
 }}
