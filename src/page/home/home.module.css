@@ -52,6 +52,13 @@
         align-items: center;
     }
 }
+@media (max-width:600px) {
+    .text {
+        text-align: center;
+      
+       
+    }
+}
 
 @media (max-width:600px) {
     .photo {
@@ -62,16 +69,6 @@
     }
 }
 
-@media (max-width:600px) {
-    .ContainerText {
-      padding: 50px;
-    }
-    .title {
-        text-align: center;
-        font-weight: bolder;
-       
-    }
-}
 
 @media (max-width:600px) {
     .containerName {
