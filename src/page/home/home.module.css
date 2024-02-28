@@ -72,9 +72,9 @@
 @media (max-width:600px) {
     .containerName {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        margin-top: 20px;
+        margin: 20px;
         padding: 100px;
     
 }}
