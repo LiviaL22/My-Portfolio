@@ -7,7 +7,7 @@ import Portfolio from "../portfolio/portfolio";
 
 export default function Home() {
   return (
-    <>
+    <div className={Style.page}>
       <div className={Style.containerName}>
         <GiGrapes size={30} />
         <h1 className={Style.title}>Livia Luciani</h1>
@@ -45,6 +45,6 @@ export default function Home() {
 
       <Contacts />
       <Portfolio />
-    </>
+    </div>
   );
 }
