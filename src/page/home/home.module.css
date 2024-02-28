@@ -53,8 +53,13 @@
     }
 }
 @media (max-width:600px) {
-    .text {
-        text-align: center;
+    .ContainerText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 100px;
        
     }
 }
