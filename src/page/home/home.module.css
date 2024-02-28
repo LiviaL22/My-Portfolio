@@ -73,6 +73,11 @@
         margin-left: 100px ;
         margin-right: 100px ;
     }
+    .title {
+        text-align: center;
+        font-weight: bolder;
+       
+    }
 }
 
 @media (max-width:600px) {
