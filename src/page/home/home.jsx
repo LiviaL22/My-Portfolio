@@ -1,20 +1,120 @@
-import Style from "./home.module.css";
+//import Style from "./home.module.css";
 import Image from "./../../assets/ll.jpg";
 import { GiGrapes } from "react-icons/gi";
 import Contacts from "../../components/contacts/contacts";
 import Portfolio from "../portfolio/portfolio";
+import styled from "styled-components";
+
+const ContainerPage = styled.div`
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+`;
+const ContainerName = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 450px;
+  margin-right: 450px;
+  box-shadow: 2px 2px 2px 2px #fac7f6;
+  border-radius: 10px;
+  margin-top: 20px;
+  @media (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+`;
+
+const Title = styled.h1`
+  text-align: center;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px;
+  @media (max-width: 600px) {
+    text-align: center;
+    font-weight: bolder;
+  }
+`;
+
+const Container1 = styled.div`
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+const ContainerText = styled.div`
+  margin-left: 80px;
+  margin-right: 80px;
+  box-shadow: 2px 2px 2px 2px #fac7f6;
+  border-radius: 10px;
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+`;
+
+const Text = styled.p`
+  text-align: center;
+  margin: 20px;
+`;
+
+const ContainerContacts = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  @media (max-width: 600px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+`;
+
+const ContainerPhoto = styled.div`
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+const Photo = styled.img`
+  border-radius: 20px;
+  height: 300px;
+  box-shadow: 2px 2px 2px 2px #fac7f6;
+  @media (max-width: 600px) {
+  }
+`;
 
 export default function Home() {
   return (
-    <div className={Style.page}>
-      <div className={Style.containerName}>
+    <ContainerPage>
+      <ContainerName>
         <GiGrapes size={20} />
-        <h1 className={Style.title}>Livia Luciani</h1>
+        <Title>Livia Luciani</Title>
         <GiGrapes size={20} />
-      </div>
-      <div className={Style.container1}>
-        <div className={Style.ContainerText}>
-          <p className={Style.text}>
+      </ContainerName>
+      <Container1>
+        <ContainerText>
+          <Text>
             Mi presento sono Livia, e sono junior front-end developer. <br />{" "}
             Negli ultimi anni ho coltivato una grande passione per l’
             informatica tramandata dalla mia famiglia. <br />
@@ -31,17 +131,17 @@ export default function Home() {
             Vorrei poter unire la mie passioni nel digitale.
             <br />
             Di seguito i miei progetti.
-          </p>
-          <div className={Style.containerContacts}>
+          </Text>
+          <ContainerContacts>
             <Contacts />
-          </div>
-        </div>
-        <div className={Style.containerPhoto}>
-          <img className={Style.photo} src={Image} alt="photo-LL" />
-        </div>
-      </div>
+          </ContainerContacts>
+        </ContainerText>
+        <ContainerPhoto>
+          <Photo src={Image} alt="photo-LL" />
+        </ContainerPhoto>
+      </Container1>
 
       <Portfolio />
-    </div>
+    </ContainerPage>
   );
 }

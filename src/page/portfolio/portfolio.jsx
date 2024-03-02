@@ -1,28 +1,91 @@
-import Style from "./portfolio.module.css";
+//import Style from "./portfolio.module.css";
 import Skills from "../../components/skills/skills";
 import { portfolioData } from "./portfolioData";
 import { BsPersonWorkspace } from "react-icons/bs";
+import styled from "styled-components";
 
+const ContainerName = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px#fac7f6;
+  border-radius: 10px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: 50px;
+  @media (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+`;
+
+const Title = styled.h1`
+  text-align: center;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px;
+  @media (max-width: 600px) {
+    text-align: center;
+    font-weight: bolder;
+  }
+`;
+const ContainerProg = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+`;
+
+const TitlePro = styled.h3`
+  text-align: center;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px;
+  @media (max-width: 600px) {
+    text-align: center;
+    font-weight: bolder;
+  }
+`;
+const Project = styled.img`
+  height: 150px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #fac7f6;
+  margin-left: 30px;
+  margin-top: 20px;
+  @media (max-width: 600px) {
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #fac7f6;
+  }
+`;
 export default function Portfolio() {
   return (
     <>
-      <div className={Style.containerName}>
+      <ContainerName>
         <BsPersonWorkspace size={20} />
-        <h1 className={Style.title}>Portfolio</h1>
+        <Title>Portfolio</Title>
         <BsPersonWorkspace size={20} />
-      </div>
+      </ContainerName>
 
       <Skills />
 
-      <div className={Style.containerSkills}>
-        {portfolioData.map(({ id, image, description, link }) => (
+      <ContainerProg>
+        {portfolioData.map(({ id, image, title, description, link }) => (
           <div key={id}>
+            <TitlePro>{title}</TitlePro>
             <a href={link} target="_blank" rel="noreferrer">
-              <img className={Style.photo} src={image} alt={description} />
+              <Project src={image} alt={description} />
             </a>
           </div>
         ))}
-      </div>
+      </ContainerProg>
     </>
   );
 }

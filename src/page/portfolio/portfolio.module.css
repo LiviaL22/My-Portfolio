@@ -5,6 +5,14 @@
   margin-right: 10px;
 }
 
+.titlePro{
+  text-align: center;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
 .containerSkills {
   display: flex;
   flex-wrap: wrap;
