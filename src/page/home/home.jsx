@@ -1,4 +1,3 @@
-//import Style from "./home.module.css";
 import Image from "./../../assets/ll.jpg";
 import { GiGrapes } from "react-icons/gi";
 import Contacts from "../../components/contacts/contacts";

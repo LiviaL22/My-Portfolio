@@ -1,4 +1,3 @@
-//import Style from "./portfolio.module.css";
 import Skills from "../../components/skills/skills";
 import { portfolioData } from "./portfolioData";
 import { BsPersonWorkspace } from "react-icons/bs";
