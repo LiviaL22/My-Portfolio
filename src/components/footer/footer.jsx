@@ -1,4 +1,3 @@
-//import Style from "./footer.module.css";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -6,7 +5,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 5vh;
-  color: #e66a72;
   margin-top: 10px;
 `;
 

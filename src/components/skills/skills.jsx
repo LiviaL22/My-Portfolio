@@ -18,7 +18,6 @@ const Container = styled.div`
 `;
 
 const IconSkill = styled.div`
-  color: #fac7f6;
   font-size: 30px;
 `;
 

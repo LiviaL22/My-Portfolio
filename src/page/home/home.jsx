@@ -21,6 +21,10 @@ const ContainerName = styled.div`
   box-shadow: 2px 2px 2px 2px #fac7f6;
   border-radius: 10px;
   margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
   @media (max-width: 600px) {
     display: flex;
     justify-content: center;
@@ -33,6 +37,7 @@ const ContainerName = styled.div`
 const Title = styled.h1`
   text-align: center;
   font-weight: bolder;
+
   margin-left: 10px;
   margin-right: 10px;
   @media (max-width: 600px) {
@@ -96,8 +101,9 @@ const ContainerPhoto = styled.div`
 `;
 
 const Photo = styled.img`
-  border-radius: 20px;
+  border-radius: 30px;
   height: 300px;
+
   box-shadow: 2px 2px 2px 2px #fac7f6;
   @media (max-width: 600px) {
   }

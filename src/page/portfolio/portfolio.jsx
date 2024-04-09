@@ -12,6 +12,10 @@ const ContainerName = styled.div`
   margin-left: 450px;
   margin-right: 450px;
   margin-top: 50px;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
   @media (max-width: 600px) {
     display: flex;
     justify-content: center;
@@ -56,8 +60,14 @@ const Project = styled.img`
   height: 150px;
   border-radius: 20px;
   box-shadow: 2px 2px 2px 2px #fac7f6;
+
   margin-left: 30px;
   margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
+
   @media (max-width: 600px) {
     height: 120px;
     border-radius: 10px;
