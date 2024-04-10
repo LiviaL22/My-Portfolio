@@ -2,7 +2,6 @@ import { contactsData } from "./contactsData";
 import styled from "styled-components";
 
 const IconContact = styled.a`
-  color: #fac7f6;
   font-size: 30px;
 `;
 const ContainerIcon = styled.div`
