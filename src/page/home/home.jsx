@@ -21,10 +21,6 @@ const ContainerName = styled.div`
   box-shadow: 2px 2px 2px 2px #fac7f6;
   border-radius: 10px;
   margin-top: 20px;
-  transition: transform 0.2s ease-in-out;
-  &:hover {
-    transform: scale(1.2);
-  }
   @media (max-width: 600px) {
     display: flex;
     justify-content: center;

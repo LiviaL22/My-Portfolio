@@ -3,6 +3,11 @@ import styled from "styled-components";
 
 const IconContact = styled.a`
   font-size: 30px;
+  color: #783c8e;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
 `;
 const ContainerIcon = styled.div`
   display: flex;

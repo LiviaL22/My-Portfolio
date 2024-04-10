@@ -12,10 +12,6 @@ const ContainerName = styled.div`
   margin-left: 450px;
   margin-right: 450px;
   margin-top: 50px;
-  transition: transform 0.2s ease-in-out;
-  &:hover {
-    transform: scale(1.2);
-  }
   @media (max-width: 600px) {
     display: flex;
     justify-content: center;

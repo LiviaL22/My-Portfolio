@@ -19,6 +19,10 @@ const Container = styled.div`
 
 const IconSkill = styled.div`
   font-size: 30px;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
 `;
 
 export default function Skills() {

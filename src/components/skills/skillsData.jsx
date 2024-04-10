@@ -5,7 +5,6 @@ import { FaReact } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import { DiGithubFull } from "react-icons/di";
 import { SiWebpack } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { BiLogoTypescript } from "react-icons/bi";
 
@@ -45,9 +44,5 @@ export const skillsData = [
   {
     id: 9,
     icon: <SiWebpack />,
-  },
-  {
-    id: 10,
-    icon: <FaNode />,
   },
 ];
